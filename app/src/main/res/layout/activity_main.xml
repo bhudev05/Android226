@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Student's Examination Details"
+       android:textSize="27dp"
+       android:textStyle="bold"
+       android:layout_marginLeft="20dp"
+       android:id="@+id/tv1"
+       android:textColor="@color/colorAccent"
+       />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/section1"
+        android:text="SECTION_1"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/section1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/section2"
+        android:text="SECTION_2"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/section2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/section3"
+        android:text="SECTION_3"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+</RelativeLayout>

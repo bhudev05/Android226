@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sec2_details">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sec1_details"
+        android:text=" Details of Section_2"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_below="@+id/sec1_details"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add  Exam's  Detals"
+        android:id="@+id/add"/>
+
+    <Button
+        android:layout_below="@+id/add"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View  Exam's  Detais"
+        android:id="@+id/view"/>
+    <Button
+        android:layout_below="@+id/view"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update  Exam's  Details"
+        android:id="@+id/update"/>
+    <Button
+        android:layout_below="@+id/update"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete  Exam's  Details"
+        android:id="@+id/delete"/>
+    <Button
+        android:layout_below="@+id/delete"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search  Exam's  Details"
+        android:id="@+id/search"/>
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:text="I can implement all the above button like implemented in SECTION_1,
+but due to the space issue I left it. "/>
+
+
+</RelativeLayout>
